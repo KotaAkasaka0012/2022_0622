@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,11 @@ public class PlayerControl : MonoBehaviour
     private SpriteRenderer spRenderer;
     private bool isGround;
     private bool isDead = false;
+
+    internal void AddJump(float jumpSpeed)
+    {
+        throw new NotImplementedException();
+    }
 
     void Start()
     {
